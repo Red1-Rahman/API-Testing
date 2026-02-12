@@ -1,0 +1,6 @@
+curl -X POST http://localhost:3001/api/chat \
+  -H "Content-Type: application/json" \
+  -d '{
+    "messages": [{"role": "user", "content": "Give a slogan for a space startup"}],
+    "temperature": 0
+  }'
